@@ -8,7 +8,7 @@ import {
 } from '../../store/slices/films/filmsSlice';
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import BaseInput from '../base/BaseInput';
+import BaseInput from '../Base/BaseInput';
 import { BookOpen, Eye, Heart, Star } from 'lucide-react';
 
 interface FilterBarProps {

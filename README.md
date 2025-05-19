@@ -24,7 +24,7 @@ Uma aplicação React para explorar, avaliar e gerenciar sua coleção de filmes
 ## 🛠️ Instalação
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/1-joaovitor/desafio_truck.git
 cd ghibli-films-app
 yarn install
 yarn start# desafio_truck

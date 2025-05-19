@@ -1,7 +1,8 @@
 import React from 'react';
+
+import Toast from '../Toast/Toast';
 import Header from './Header';
 import Footer from './Footer';
-import Toast from '../Toast/Toast';
 
 interface MainLayoutProps {
   children: React.ReactNode;

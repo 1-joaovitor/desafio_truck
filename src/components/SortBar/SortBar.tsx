@@ -2,7 +2,7 @@ import { setSortOption } from '../../store/slices/films/filmsSlice';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/store/store';
-import BaseSelect from '../base/BaseSelect';
+import BaseSelect from '../Base/BaseSelect';
 
 interface SortBarProps {
   children?: React.ReactNode;

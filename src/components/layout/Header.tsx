@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme } from '../../contexts/ThemeContext';
-import BaseButton from '../base/BaseButton';
+import BaseButton from '../Base/BaseButton';
 import { LogIn, LogOut, User, Home, LayoutDashboard, FilmIcon, Menu, X, Moon, Sun, Monitor } from 'lucide-react';
 
 interface HeaderProps {

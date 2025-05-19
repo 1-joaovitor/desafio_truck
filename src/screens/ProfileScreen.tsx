@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { useTheme } from '../contexts/ThemeContext'; // Adicione o import
+import { useTheme } from '../contexts/ThemeContext'; 
 import { useSelector } from 'react-redux';
 import { RootState } from '../store/store';
-import BaseButton from '../components/base/BaseButton';
 import { User, Mail, Settings, Save, Zap } from 'lucide-react';
+import BaseButton from '../components/Base/BaseButton';
 
 
 interface FormData {

@@ -2,8 +2,8 @@ import { addNote, editNote, removeNote } from '../../store/slices/notes/notesSli
 import { Note } from '@/types';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import BaseModal from '../base/BaseModal';
-import BaseButton from '../base/BaseButton';
+import BaseModal from '../Base/BaseModal';
+import BaseButton from '../Base/BaseButton';
 import { X, Save, Trash2 } from 'lucide-react';
 import StarRating from '../StarRating/StarRating';
 

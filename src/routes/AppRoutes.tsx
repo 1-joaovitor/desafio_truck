@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import AuthLayout from '../components/layout/AuthLayout';
-import PublicLayout from '../components/layout/PublicLayout';
+import AuthLayout from '../components/Layout/AuthLayout';
+import PublicLayout from '../components/Layout/PublicLayout';
 import HomeScreen from '../screens/HomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import DashboardScreen from '../screens/DashboardScreen';

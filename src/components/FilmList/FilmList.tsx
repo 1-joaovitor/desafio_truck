@@ -4,7 +4,7 @@ import { AppDispatch } from '@/store/store';
 import { RootState } from '@/store/store';
 import { fetchAllFilms } from '../../store/slices/films/filmsSlice';
 import FilmCard from '../FilmCard/FilmCard';
-import Skeleton from '../base/Skeleton';
+import Skeleton from '../Base/Skeleton';
 
 const MAX_ITEMS = 250;
 const ITEMS_PER_PAGE = 6;
